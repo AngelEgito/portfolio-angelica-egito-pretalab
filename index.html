@@ -4,25 +4,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Angélica Egito</title>
-    <link rel="shortcut icon" href="img/angelica_egito2.ico">
+    <link rel="shortcut icon" href="img/angelica_egito1.jpg">
     <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+    <link rel="stylesheet" href="stylle.css">
 
 </head>
 <body>
-    <header>
+    <header class="header-menu">
         <nav>
-            <ul>
+            <ul class="lista-menu">
                 
                 <li>
                     <a href="#formacao">Formação</a>
                 </li>
                 
                 <li>
-                    <a href="#projetos">Meus Projetos</a>
+                    <a href="#portfolio">Meus Projetos</a>
                 </li>
                 
                 <li>
-                    <a href="#contato">Contatos</a>
+                    <a href="#contato">Contato</a>
                 </li>
 
             </ul>
@@ -32,98 +33,114 @@
     
     <main>
         
-        <section>
-            <div>
-                <img src="img/angelica_egito1.jpg" alt="Imagem da Angélica Egito">
-            </div>
-                
-            <div>
-                <h1>Angélica Egito</h1>
-                <h2>Desenvolvedora Front-End</h2>
-            </div>
-
-            <div>
-                Me chamo Angélica Egito, sou de Olinda Pernambuco. Sou mãe de 2 filhos, Dara de 10 anos e Caio de 7 anos, e tenho um companheiro. 
-                Cabelereira, Esteticísta, atualmente autônoma na área de vendas. <br> Sou estudamte de tecnologia, mais precisamente em Formação na área de Front-End.  <br>
-            </div>
-        </section>
-
-        <section id="formacao">
-            <div>
-                Formação
-            </div>
-            <div>
-                <ul>
-
-                    <li>
-                        <p>Ensino Médio</p>
-                        <a>Escola José Manuel de Queiroz</a>
-                        <p>
-                        Concluisão do ensino médio.
-                        </p>
-                    </li>
-
-                    <li>
-                        <p>Tecnológico em Estética e Cosmetica</p>
-                        <a href="https://grupounibra.com/curso/superior-de-tecnologia-em-estetica-e-cosmetica" target="_blank">Grupo Unibra</a>
-                        <p>
-                            Superiór incompleto/(4º período). <br> O tecnólogo em estética e cosmética trabalha com a autoestima das pessoas, buscando fornecer os melhores tratamentos na área da beleza. 
-                        </p>
-                    </li>
-
-                    <li>
-                        <p>Ciclo Formativo PretaLab</p>
-                        <a href="https://www.pretalab.com/formacao" target="_blank">Pretalab / Olabi</a>
-                        <p>
-                            Uma metodologia que valoriza sua autonomia e independência, aliadas a conhecimentos técnicos atualizados com as necessidades do dia a dia de quem trabalha com tecnologia.
-                        </p>
-                    </li>
-
-                    <li>
-                        <p>Projeto Pessoal React</p>
-                        <a href=""></a>
-                        <p>
-
-                        </p>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        <section id="projetos">
-            <div>
-                Meus Projetos
-            </div>
-            <div>
-                <ul>
-                    <li>
-                        <p>Clculadora</p>
-                        <a href=""></a>
-                        <p></p>
-                    </li>
-                </ul>
-            </div>
+        <section class="principal">
             
+            <div class="subcontainer-principal container">
+                <div>
+                    <img src="img/angelica_egito1.jpg" alt="Imagem da Angélica Egito">
+                </div>
+                    
+                <div>
+                    <h1 class="nome-completo">Angélica Egito</h1>
+                    <h2 class="profissao">Desenvolvedora Front-End</h2>
+                </div>
+    
+                <div class="texto-sobre">
+                    Me chamo Angélica Egito, sou de Olinda Pernambuco. Sou mãe de 2 filhos, Dara de 10 anos e Caio de 7 anos, e tenho um companheiro. 
+                    Cabelereira, Esteticísta, atualmente autônoma na área de vendas. Sou estudamte de tecnologia, mais precisamente em Formação na área de Front-End. 
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="formacao" id="formacao">
+            <div class="container section-lista">
+                <div>
+                    <h3 class="topico-principal">Formação</h3>
+                </div>
+                <div class="lista-item">
+                    <ul>
+
+                        <li>
+                            <p class="lista-titulo">Ensino Médio</p>
+                            <a>Escola José Manuel de Queiroz</a>
+                            <p class="lista-descricao">
+                            Concluisão do ensino médio.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p class="lista-titulo">Tecnológico em Estética e Cosmetica</p>
+                            <a href="https://grupounibra.com/curso/superior-de-tecnologia-em-estetica-e-cosmetica" target="_blank" class="lista-local">Grupo Unibra</a>
+                            <p class="lista-descricao">
+                                Superiór incompleto (4º período). <br> O tecnólogo em estética e cosmética trabalha com a autoestima das pessoas, buscando fornecer os melhores tratamentos na área da beleza. 
+                            </p>
+                        </li>
+
+                        <li>
+                            <p class="lista-titulo">Profissional Life Coaching</p>
+                            <a href="https://www.institutoverissimo.com.br/?fbclid=IwAR2ui8RtMJw3eopgNOeREWXhk1jyfeaCRg5d6Rfv2DAap_cBGtqGESATVA4" target="_blank" class="lista-local">Instituto Varíssimo</a>
+                            <p class="lista-descricao">
+                                Contribui positivamente para que o coachee(indivíduo) tenha habilidades importantes – comunicação efetiva, autoconhecimento, melhoria de relacionamentos, quebra de crenças limitantes, entre outras habilidades – e, assim, alcançar um estado de equilíbrio entre todas as partes da sua vida. 
+                            </p>
+                        </li>
+
+                        <li>
+                            <p class="lista-titulo">Ciclo Formativo PretaLab</p>
+                            <a href="https://www.pretalab.com/formacao" target="_blank" class="lista-local">Pretalab / Olabi</a>
+                            <p class="lista-descricao">
+                                Uma metodologia que valoriza sua autonomia e independência, aliadas a conhecimentos técnicos atualizados com as necessidades do dia a dia de quem trabalha com tecnologia.
+                            </p>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="projetos" id="portfolio">
+            <article class="container section-lista">
+                <div>
+                    <h3 class="topico-principal">Meus Projetos</h3>
+                </div>
+                <div class="lista-item">
+                    <ul>
+                        <li>
+                            <p class="lista-titulo">Calculadora em JaaScript</p>
+                            <a href="#" target="_blank" class="lista-local"> </a> <!-- colocar o link do projeto no espaço livre -->
+                            <p class="lista-descricao">
+
+                            </p>
+                        </li>
+
+                        <li>
+                            <p class="lista-titulo">Projeto Pessoal em React</p>
+                            <a href="#" target="_blank" class="lista-local"></a> <!-- colocar o link do projeto no espaço livre -->
+                            <p class="lista-descricao">
+
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </article>
         </section>
 
     </main>
 
-    <footer id="contato">
-        <div>
-            <ul>
+    <footer class="footer" id="contato">
+        <div class="container-footer">
+            <ul class="lista-footer">
                 <li>
-                    <i class="fas fa-envelope-square"></i> 
-                    <a href="mailto:angelegito@hotmail.com">angelegito@hotmail.com</a>
+                    <i class="fas fa-envelope-square"></i><a href="mailto:angelegito@hotmail.com" target="_blank" class="links">angelegito@hotmail.com</a>
                 </li>
                 
                 <li>
-                    <i class="fab fa-linkedin"></i>
-                    <a href="https://www.linkedin.com/in/ang%C3%A9lica-egito/" target="_blank">angélica egito</a>
+                    <i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/ang%C3%A9lica-egito/" target="_blank" class="links">angélica egito</a>
                 </li>
                 
                 <li>
-                    <i class="fab fa-github-square"></i>
-                    <a href="https://github.com/AngelEgito" target="_blank">AngelEgito</a>
+                    <i class="fab fa-github-square"></i><a href="https://github.com/AngelEgito" target="_blank" class="links">AngelEgito</a>
                 </li>
             </ul>
         </div>
