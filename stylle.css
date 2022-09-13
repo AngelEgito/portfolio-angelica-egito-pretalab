@@ -139,11 +139,12 @@ centro do browser. O container é invisível. */
     font-weight: 300;
 }
 
+/*
 .wrapper-portfolio {
     background-color: #EAEAEA;
     display: flex;
     flex-direction: column;
-}
+} */
 
 .formacao {
     background-color: #fff;
